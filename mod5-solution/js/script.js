@@ -60,7 +60,7 @@ var switchMenuToActive = function () {
   }
 };
 
-  // On page load (before images or CSS)
+// On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
 
 // TODO: STEP 0: Look over the code from
@@ -130,7 +130,7 @@ function buildAndShowHomeHTML (categories) {
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
-
+   
 
   //  Given array of category objects, returns a random category object.
 function chooseRandomCategory (categories) {
