@@ -74,7 +74,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 // On first load, show home view
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  allCategoriesUrl,
+  homeHtmlUrl,
   buildAndShowHomeHTML);
 
 
